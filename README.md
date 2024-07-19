@@ -1,4 +1,8 @@
+![Paginated Cat](pagination.png)
 
+![Paginated Cat](pagination_2.png)
+
+![Paginated Cat](pagination_3.png)
 
 # Resources
 

@@ -94,10 +94,12 @@ class Server:
             pass
 Implement a method named get_page that takes two integer arguments page with default value 1 and page_size with default value 10.
 
-You have to use this CSV file (same as the one presented at the top of the project)
-Use assert to verify that both arguments are integers greater than 0.
-Use index_range to find the correct indexes to paginate the dataset correctly and return the appropriate page of the dataset (i.e. the correct list of rows).
-If the input arguments are out of range for the dataset, an empty list should be returned.
+- You have to use this [CSV]() file (same as the one presented at the top of the project)
+- Use assert to verify that both arguments are integers greater than 0.
+- Use index_range to find the correct indexes to paginate the dataset correctly and return the appropriate page of the dataset (i.e. the correct list of rows).
+- If the input arguments are out of range for the dataset, an empty list should be returned.
+
+```bash
 bob@dylan:~$  wc -l Popular_Baby_Names.csv
 19419 Popular_Baby_Names.csv
 bob@dylan:~$
@@ -152,11 +154,12 @@ AssertionError raised when page and/or page_size are not ints
 [['2016', 'FEMALE', 'ASIAN AND PACIFIC ISLANDER', 'Emily', '99', '4'], ['2016', 'FEMALE', 'ASIAN AND PACIFIC ISLANDER', 'Mia', '79', '5']]
 []
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend
 Directory: 0x00-pagination
-File: 1-simple_pagination.py
+File: `1-simple_pagination.py`
 
 ### 2. Hypermedia pagination
 

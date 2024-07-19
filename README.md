@@ -62,10 +62,11 @@ GitHub repository: alx-backend
 Directory: 0x00-pagination
 File: 0-simple_helper_function.py
 
-1. Simple pagination
-mandatory
-Copy index_range from the previous task and the following class into your code
+### 1. Simple pagination
 
+Copy `index_range` from the previous task and the following class into your code
+
+```bash
 import csv
 import math
 from typing import List

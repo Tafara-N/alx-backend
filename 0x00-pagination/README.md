@@ -68,7 +68,7 @@ bob@dylan:~$
 **Repo:**
 GitHub repository: alx-backend
 Directory: 0x00-pagination
-File: `0-simple_helper_function.py`
+- File: `0-simple_helper_function.py`
 
 ### 1. Simple pagination
 
@@ -170,7 +170,7 @@ bob@dylan:~$
 **Repo:**
 GitHub repository: alx-backend
 Directory: 0x00-pagination
-File: `1-simple_pagination.py`
+- File: `1-simple_pagination.py`
 
 ### 2. Hypermedia pagination
 
@@ -223,7 +223,7 @@ bob@dylan:~$
 **Repo:**
 GitHub repository: alx-backend
 Directory: 0x00-pagination
-File: `2-hypermedia_pagination.py`
+- File: `2-hypermedia_pagination.py`
 
 ### 3. Deletion-resilient hypermedia pagination
 
@@ -347,4 +347,4 @@ bob@dylan:~$
 **Repo:**
 GitHub repository: alx-backend
 Directory: 0x00-pagination
-File: `3-hypermedia_del_pagination.py`
+- File: `3-hypermedia_del_pagination.py`

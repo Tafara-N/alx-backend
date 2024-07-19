@@ -65,7 +65,7 @@ bob@dylan:~$ ./0-main.py
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend
 Directory: 0x00-pagination
 File: `0-simple_helper_function.py`
@@ -167,7 +167,7 @@ AssertionError raised when page and/or page_size are not ints
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend
 Directory: 0x00-pagination
 File: `1-simple_pagination.py`
@@ -220,7 +220,7 @@ bob@dylan:~$ ./2-main.py
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend
 Directory: 0x00-pagination
 File: `2-hypermedia_pagination.py`
@@ -344,7 +344,7 @@ Nb items: 19417
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend
 Directory: 0x00-pagination
 File: `3-hypermedia_del_pagination.py`

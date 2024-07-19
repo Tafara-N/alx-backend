@@ -4,9 +4,10 @@
 
 **Read or watch:**
 - [REST API Design: Pagination](https://intranet.alxswe.com/rltoken/7Kdzi9CH1LdSfNQ4RaJUQw)
-- [HATEOAS]()
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+- [HATEOAS](https://intranet.alxswe.com/rltoken/tfzcEbTSdMYSYxsspJH_oA)
+
+# Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/zQ78qQVUjaPExupXQpAaHw), **without the help of Google:**
 
 How to paginate a dataset with simple page and page_size parameters
 How to paginate a dataset with hypermedia metadata

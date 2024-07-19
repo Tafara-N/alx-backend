@@ -158,8 +158,8 @@ GitHub repository: alx-backend
 Directory: 0x00-pagination
 File: 1-simple_pagination.py
 
-2. Hypermedia pagination
-mandatory
+### 2. Hypermedia pagination
+
 Replicate code from the previous task.
 
 Implement a `get_hyper` method that takes the same arguments (and defaults) as `get_page` and returns a dictionary containing the following key-value pairs:

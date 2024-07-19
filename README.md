@@ -34,6 +34,7 @@ The function should return a tuple of size two containing a start index and an e
 
 Page numbers are 1-indexed, i.e. the first page is page 1.
 
+```bash
 bob@dylan:~$ cat 0-main.py
 #!/usr/bin/env python3
 """
@@ -56,11 +57,12 @@ bob@dylan:~$ ./0-main.py
 <class 'tuple'>
 (30, 45)
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend
 Directory: 0x00-pagination
-File: 0-simple_helper_function.py
+File: `0-simple_helper_function.py`
 
 ### 1. Simple pagination
 

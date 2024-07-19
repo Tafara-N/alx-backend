@@ -162,7 +162,7 @@ File: 1-simple_pagination.py
 mandatory
 Replicate code from the previous task.
 
-Implement a get_hyper method that takes the same arguments (and defaults) as get_page and returns a dictionary containing the following key-value pairs:
+Implement a `get_hyper` method that takes the same arguments (and defaults) as `get_page` and returns a dictionary containing the following key-value pairs:
 
 - `page_size`: the length of the returned dataset page
 - `page`: the current page number

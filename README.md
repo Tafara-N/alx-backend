@@ -208,12 +208,13 @@ GitHub repository: alx-backend
 Directory: 0x00-pagination
 File: 2-hypermedia_pagination.py
 
-3. Deletion-resilient hypermedia pagination
-mandatory
+### 3. Deletion-resilient hypermedia pagination
+
 The goal here is that if between two queries, certain rows are removed from the dataset, the user does not miss items from dataset when changing page.
 
-Start 3-hypermedia_del_pagination.py with this code:
+Start `3-hypermedia_del_pagination.py` with this code:
 
+```bash
 #!/usr/bin/env python3
 """
 Deletion-resilient hypermedia pagination

@@ -170,10 +170,12 @@ data: the dataset page (equivalent to return from previous task)
 next_page: number of the next page, None if no next page
 prev_page: number of the previous page, None if no previous page
 total_pages: the total number of pages in the dataset as an integer
-Make sure to reuse get_page in your implementation.
 
-You can use the math module if necessary.
+Make sure to reuse `get_page` in your implementation.
 
+You can use the `math` module if necessary.
+
+```bash
 bob@dylan:~$ cat 2-main.py
 #!/usr/bin/env python3
 """
@@ -202,11 +204,12 @@ bob@dylan:~$ ./2-main.py
 ---
 {'page_size': 0, 'page': 3000, 'data': [], 'next_page': None, 'prev_page': 2999, 'total_pages': 195}
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend
 Directory: 0x00-pagination
-File: 2-hypermedia_pagination.py
+File: `2-hypermedia_pagination.py`
 
 ### 3. Deletion-resilient hypermedia pagination
 

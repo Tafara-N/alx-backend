@@ -1,10 +1,10 @@
 
 
-Resources
-Read or watch:
+# Resources
 
-REST API Design: Pagination
-HATEOAS
+**Read or watch:**
+- [REST API Design: Pagination](https://intranet.alxswe.com/rltoken/7Kdzi9CH1LdSfNQ4RaJUQw)
+- [HATEOAS]()
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 

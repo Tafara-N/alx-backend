@@ -79,9 +79,9 @@ class BaseCaching():
             print("{}: {}".format(key, self.cache_data.get(key)))
 
     def put(self, key, item):
-    """ Add an item in the cache
-    """
-    raise NotImplementedError("put must be implemented in your cache class")
+        """ Add an item in the cache
+        """
+        raise NotImplementedError("put must be implemented in your cache class")
     def get(self, key):
     """ Get an item by key
     """

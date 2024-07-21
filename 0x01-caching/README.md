@@ -9,7 +9,7 @@ In this project, you learn different caching algorithms.
 - [Cache replacement policies - LIFO]()
 - [Cache replacement policies - LRU]()
 - [Cache replacement policies - MRU]()
-Cache replacement policies - LFU (/rltoken/8PEJ8L34bxhL2y--BW5zGQ)
+- [Cache replacement policies - LFU]()
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**

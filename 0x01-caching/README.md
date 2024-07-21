@@ -49,7 +49,8 @@ module, class or method (the length of it will be verified)
 # More Info
 
 **Parent class BaseCaching**
-All your classes must inherit from BaseCaching defined below
+
+All your classes must inherit from `BaseCaching` defined below
 
 ```bash
 $ cat base_caching.py

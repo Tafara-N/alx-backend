@@ -9,8 +9,7 @@ Cache replacement policies - MRU (/rltoken/Tmk4qEBZ7QTknvbpKabWfQ)
 Cache replacement policies - LFU (/rltoken/8PEJ8L34bxhL2y--BW5zGQ)
 
 # Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone (/rltoken/-gpAdRQTx1Rb-
-amaz9JZhQ), without the help of Google:
+At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
 
 ## General
 What a caching system is

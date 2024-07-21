@@ -7,7 +7,7 @@ In this project, you learn different caching algorithms.
 **Read or watch:**
 - [Cache replacement policies - FIFO]()
 - [Cache replacement policies - LIFO]()
-Cache replacement policies - LRU (/rltoken/gKerxvR4dnXQYkBX2ujZiQ)
+- [Cache replacement policies - LRU]()
 Cache replacement policies - MRU (/rltoken/Tmk4qEBZ7QTknvbpKabWfQ)
 Cache replacement policies - LFU (/rltoken/8PEJ8L34bxhL2y--BW5zGQ)
 

@@ -1,3 +1,5 @@
+# Pagination
+
 ![Paginated Cat](pagination.png)
 
 ![Paginated Cat](pagination_2.png)

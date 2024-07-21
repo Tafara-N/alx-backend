@@ -7,8 +7,8 @@ Cache replacement policies - LIFO (/rltoken/U44RQjXp8xBtsbNIyhHIyw)
 Cache replacement policies - LRU (/rltoken/gKerxvR4dnXQYkBX2ujZiQ)
 Cache replacement policies - MRU (/rltoken/Tmk4qEBZ7QTknvbpKabWfQ)
 Cache replacement policies - LFU (/rltoken/8PEJ8L34bxhL2y--BW5zGQ)
-Learning Objectives
 
+# Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone (/rltoken/-gpAdRQTx1Rb-
 amaz9JZhQ), without the help of Google:
 

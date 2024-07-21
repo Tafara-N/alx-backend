@@ -45,7 +45,8 @@ All your functions (inside and outside a class) should have a documentation ( py
 'print(__import__("my_module").MyClass.my_function.__doc__)' )
 A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the
 module, class or method (the length of it will be verified)
-More Info
+
+# More Info
 Parent class BaseCaching
 All your classes must inherit from BaseCaching defined below
 

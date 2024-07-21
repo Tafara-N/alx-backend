@@ -13,7 +13,7 @@ At the end of this project, you are expected to be able to [explain to anyone]()
 
 ## General
 - What a caching system is
-What FIFO means
+- What FIFO means
 What LIFO means
 What LRU means
 What MRU means

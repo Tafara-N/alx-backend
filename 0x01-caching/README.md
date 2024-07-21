@@ -12,7 +12,7 @@ Cache replacement policies - LFU (/rltoken/8PEJ8L34bxhL2y--BW5zGQ)
 At the end of this project, you are expected to be able to explain to anyone (/rltoken/-gpAdRQTx1Rb-
 amaz9JZhQ), without the help of Google:
 
-General
+## General
 What a caching system is
 What FIFO means
 What LIFO means

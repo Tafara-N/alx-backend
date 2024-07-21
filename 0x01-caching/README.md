@@ -47,7 +47,8 @@ A documentation is not a simple word, it’s a real sentence explaining what’s
 module, class or method (the length of it will be verified)
 
 # More Info
-Parent class BaseCaching
+
+**Parent class BaseCaching**
 All your classes must inherit from BaseCaching defined below
 
 ```bash

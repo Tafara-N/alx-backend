@@ -67,6 +67,7 @@ class BaseCaching():
     def __init__(self):
         """ Initiliaze
         """
+
         self.cache_data = {}
 
     def print_cache(self):
@@ -75,6 +76,7 @@ class BaseCaching():
         print("Current cache:")
         for key in sorted(self.cache_data.keys()):
             print("{}: {}".format(key, self.cache_data.get(key)))
+
     def put(self, key, item):
     """ Add an item in the cache
     """

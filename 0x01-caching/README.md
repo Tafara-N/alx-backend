@@ -41,7 +41,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 # More Info
 
-**Parent class BaseCaching**
+**Parent class `BaseCaching`**
 
 All your classes must inherit from `BaseCaching` defined below
 

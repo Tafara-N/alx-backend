@@ -152,7 +152,7 @@ guillaume@ubuntu:~/0x01$
 
 **Repo:**
 GitHub repository: alx-backend
-Directory: 0x01-caching
+- Directory: `0x01-caching`
 - File: `0-basic_cache.py`
 
 ### 1. FIFO caching
@@ -218,7 +218,7 @@ guillaume@ubuntu:~/0x01$
 
 **Repo:**
 GitHub repository: alx-backend
-Directory: 0x01-caching
+- Directory: `0x01-caching`
 - File: `1-fifo_cache.py`
 
 ### 2. LIFO Caching
@@ -292,7 +292,7 @@ guillaume@ubuntu:~/0x01$
 
 **Repo:**
 GitHub repository: alx-backend
-Directory: 0x01-caching
+- Directory: `0x01-caching`
 - File: `2-lifo_cache.py`
 
 ### 3. LRU Caching
@@ -406,7 +406,7 @@ guillaume@ubuntu:~/0x01$
 
 **Repo:**
 GitHub repository: alx-backend
-Directory: 0x01-caching
+- Directory: `0x01-caching`
 - File: `3-lru_cache.py`
 
 ### 4. MRU Caching
@@ -520,7 +520,7 @@ guillaume@ubuntu:~/0x01$
 
 **Repo:**
 GitHub repository: alx-backend
-Directory: 0x01-caching
+- Directory: `0x01-caching`
 - File: `4-mru_cache.py`
 
 ### 5. LFU Caching
@@ -663,5 +663,5 @@ guillaume@ubuntu:~/0x01$
 
 **Repo:**
 GitHub repository: alx-backend
-Directory: 0x01-caching
+- Directory: `0x01-caching`
 - File: `100-lfu_cache.py`

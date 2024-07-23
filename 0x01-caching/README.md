@@ -150,7 +150,7 @@ Street
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend
 Directory: 0x01-caching
 File: `0-basic_cache.py`
@@ -216,7 +216,7 @@ F: Mission
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend
 Directory: 0x01-caching
 File: `1-fifo_cache.py`
@@ -290,7 +290,7 @@ G: San Francisco
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend
 Directory: 0x01-caching
 File: `2-lifo_cache.py`
@@ -404,7 +404,7 @@ K: K
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend
 Directory: 0x01-caching
 File: `3-lru_cache.py`
@@ -518,7 +518,7 @@ K: K
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend
 Directory: 0x01-caching
 File: `4-mru_cache.py`
@@ -661,7 +661,7 @@ M: M
 guillaume@ubuntu:~/0x01$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend
 Directory: 0x01-caching
 File: `100-lfu_cache.py`

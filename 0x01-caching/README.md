@@ -163,9 +163,11 @@ If key or item is None, this method should not do anything.
 If the number of items in self.cache_data is higher that BaseCaching.MAX_ITEMS:
 you must discard the first item put in cache (FIFO algorithm)
 you must print DISCARD: with the key discarded and following by a new line
-def get(self, key):
-Must return the value in self.cache_data linked to key.
-If key is None or if the key doesn’t exist in self.cache_data, return None.
+- `def get(self, key):`
+    - Must return the value in `self.cache_data` linked to `key`.
+    - If `key` is `None` or if the `key` doesn’t exist in `self.cache_data`, return `None`.
+
+```bash
 guillaume@ubuntu:~/0x01$ cat 1-main.py
 #!/usr/bin/python3
 """ 1-main """
@@ -208,11 +210,12 @@ D: School
 E: Battery
 F: Mission
 guillaume@ubuntu:~/0x01$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend
 Directory: 0x01-caching
-File: 1-fifo_cache.py
+File: `1-fifo_cache.py`
 
 ### 2. LIFO Caching
 

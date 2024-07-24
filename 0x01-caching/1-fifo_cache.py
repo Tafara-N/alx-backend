@@ -9,7 +9,7 @@ from base_caching import BaseCaching
 
 class FIFOCache(BaseCaching):
     """
-    A class `FIFOCache` that inherits from `BaseCaching` and is a caching system
+    A class `FIFOCache` that inherits from `BaseCaching`
     """
 
     def __init__(self):
@@ -22,7 +22,7 @@ class FIFOCache(BaseCaching):
 
     def put(self, key, item):
         """
-        Assign to the dictionary `cache_data` the `item` value for the key `key`
+        Assign to the dictionary `cache_data` the item value for the key `key`
         """
 
         if key is None or item is None:

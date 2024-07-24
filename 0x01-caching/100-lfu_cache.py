@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
 """
 A class LFUCache that inherits from BaseCaching and is a caching system

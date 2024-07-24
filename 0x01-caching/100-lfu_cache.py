@@ -30,19 +30,31 @@ class LFUCache(BaseCaching):
         """
 
         if key and item:
-            if self.cache_data.get(key):
-                self.queue.remove(key)
-            self.queue.append(key)
-            self.cache_data[key] = item
+            if (
+                len(self.queue) >= self.MAX_ITEMS
+                and not self.cache_data.get(key)
+            ):
 
-            if len(self.queue) > self.MAX_ITEMS:
-                min_key = self.queue[0]
-                for k in self.queue:
-                    if self.cache_data[k] < self.cache_data[min_key]:
-                        min_key = k
-                self.queue.remove(min_key)
-                self.cache_data.pop(min_key)
-                print(f"DISCARD: {min_key}")
+            deleted_key = self.queue.pop(0)
+            self.lfu.pop(deleted_key)
+            self.cache_data.pop(deleted_key)
+            print(f"DISCARD: {deleted_key}")
+
+        if self.cache_data.get(key):
+            self.queue.remove(key)
+            self.lfu[key] += 1
+        else:
+            self.lfu[key] = 0
+
+        inserted_index = 0
+
+        while (
+            inserted_index < len(self.queue)
+            and not self.lfu[self.queue[inserted_index]]
+        ):
+            inserted_index += 1
+        self.queue.insert(inserted_index, key)
+        self.cache_data[key] = item
 
     def get(self, key):
         """

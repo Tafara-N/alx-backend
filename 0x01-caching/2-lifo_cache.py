@@ -16,13 +16,13 @@ class LIFOCache(BaseCaching):
         """
         Instantiate `LIFOCache`
         """
-        
+
         super().__init__()
         self.cache_data = []
 
     def put(self, key, item):
         """
-        Add key/value pair to cache data
+        Add key: value pair to cache data
         """
 
         if key and item:

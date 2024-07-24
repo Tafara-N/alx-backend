@@ -32,7 +32,7 @@ class MRUCache(BaseCaching):
             self.cache_data[key] = item
 
             if len(self.queue) > self.MAX_ITEMS:
-                deleted_key = self.queue.pop(-1)
+                deleted_key = self.queue.pop(-2)
                 self.cache_data.pop(deleted_key)
                 print(f"DISCARD: {deleted_key}")
 

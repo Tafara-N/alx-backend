@@ -16,6 +16,7 @@ class LIFOCache(BaseCaching):
         """
         Instantiate `LIFOCache`
         """
+        
         super().__init__()
         self.cache_data = []
 

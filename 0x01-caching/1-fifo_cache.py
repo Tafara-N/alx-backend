@@ -14,7 +14,7 @@ class FIFOCache(BaseCaching):
 
     def __init__(self):
         """
-        Initialize
+        Instantiate `FIFOCache`
         """
 
         super().__init__()

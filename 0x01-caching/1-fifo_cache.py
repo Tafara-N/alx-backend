@@ -16,7 +16,7 @@ class FIFOCache(BaseCaching):
         """
         Initialize
         """
-        
+
         super().__init__()
         self.keys = []
 

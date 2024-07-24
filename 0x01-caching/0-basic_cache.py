@@ -14,7 +14,7 @@ class BasicCache(BaseCaching):
 
     def __init__(self):
         """
-        Initialize
+        Instantiate `BasicCache`
         """
         super().__init__()
 

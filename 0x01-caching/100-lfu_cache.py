@@ -61,6 +61,9 @@ class LFUCache(BaseCaching):
         Get value given key from cache data
         """
 
+        if key not in self.cache_data:
+            return None
+
         self.lfu[key] += 1
         index = self.queue.index(key)
 
@@ -76,4 +79,4 @@ class LFUCache(BaseCaching):
                     next_key = self.queue[index + 1]
                 else:
 
-        return self.cache_data[key] if key in self.cache_data else None
+        return self.cache_data[key]

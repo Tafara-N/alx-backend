@@ -1,6 +1,9 @@
-Resources
-Read or watch:
+![I don't always test I18n](test_i18n.jpg)
 
+
+# Resources
+
+**Read or watch:**
 Flask-Babel
 Flask i18n tutorial
 pytz

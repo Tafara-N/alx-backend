@@ -20,6 +20,7 @@ def index():
     """
     The index page route, renders the '1-index.html' template
     """
+
     return render_template("1-index.html")
 
 

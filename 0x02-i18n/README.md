@@ -122,7 +122,7 @@ Now you should be able to test different translations by visiting `http://127.0.
 
 **Visiting `http://127.0.0.1:5000/?locale=fr` should display this level 1 heading:**
 
-![Bonjour monde header](bonjour_monde_3.png)
+![Bonjour monde header](pictures/bonjour_monde_3.png)
 
 **Repo:**
 - GitHub repository: `alx-backend`
@@ -157,11 +157,11 @@ not_logged_in|"You are not logged in."|"Vous n'êtes pas connecté."
 
 **Visiting `http://127.0.0.1:5000/` in your browser should display this:**
 
-![Hello world](hello_world_2.png)
+![Hello world](pictures/hello_world_2.png)
 
 **Visiting `http://127.0.0.1:5000/?login_as=2` in your browser should display this:**
 
-![Hello world](hello_world_3.png)
+![Hello world](pictures/hello_world_3.png)
 
 **Repo:**
 - GitHub repository: `alx-backend`
@@ -181,7 +181,7 @@ The order of priority should be
 
 Test by logging in as different users
 
-![Bonjour monde](bonjour_monde_2.png)
+![Bonjour monde](pictures/bonjour_monde_2.png)
 
 **Repo:**
 - GitHub repository: `alx-backend`
@@ -219,11 +219,11 @@ Use the following translations
 
 **Displaying the time in French looks like this:**
 
-![Bonjour monde](bonjour_monde.png)
+![Bonjour monde](pictures/bonjour_monde.png)
 
 **Displaying the time in English looks like this:**
 
-![Hello world](hello_world.png)
+![Hello world](pictures/hello_world.png)
 
 **Repo:**
 - GitHub repository: `alx-backend`

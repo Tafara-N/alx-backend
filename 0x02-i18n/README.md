@@ -112,21 +112,22 @@ GitHub repository: alx-backend
 Directory: 0x02-i18n
 File: `3-app.py, babel.cfg, templates/3-index.html, translations/en/LC_MESSAGES/messages.po, translations/fr/LC_MESSAGES/messages.po, translations/en/LC_MESSAGES/messages.mo, translations/fr/LC_MESSAGES/messages.mo`
 
-4. Force locale with URL parameter
-mandatory
-In this task, you will implement a way to force a particular locale by passing the locale=fr parameter to your app’s URLs.
+### 4. Force locale with URL parameter
 
-In your get_locale function, detect if the incoming request contains locale argument and ifs value is a supported locale, return it. If not or if the parameter is not present, resort to the previous default behavior.
+In this task, you will implement a way to force a particular locale by passing the `locale=fr` parameter to your app’s URLs.
 
-Now you should be able to test different translations by visiting http://127.0.0.1:5000?locale=[fr|en].
+In your `get_locale` function, detect if the incoming request contains `locale` argument and ifs value is a supported locale, return it. If not or if the parameter is not present, resort to the previous default behavior.
 
-Visiting http://127.0.0.1:5000/?locale=fr should display this level 1 heading:
+Now you should be able to test different translations by visiting `http://127.0.0.1:5000?locale=[fr|en]`.
+
+**Visiting `http://127.0.0.1:5000/?locale=fr` should display this level 1 heading:**
+
+![Bonjour monde header](bonjour_monde_3.png)
 
 Repo:
-
 GitHub repository: alx-backend
 Directory: 0x02-i18n
-File: 4-app.py, templates/4-index.html
+File: `4-app.py, templates/4-index.html`
 
 5. Mock logging in
 mandatory

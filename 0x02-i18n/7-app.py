@@ -11,7 +11,6 @@ from flask import Flask, g, render_template, request
 from flask_babel import Babel
 from pytz import timezone
 
-
 app = Flask(__name__)
 babel = Babel(app)
 

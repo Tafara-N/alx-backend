@@ -31,7 +31,7 @@
 
 First you will setup a basic Flask app in `0-app.py`. Create a single `/` route and an `index.html` template that simply outputs “Welcome to Holberton” as page title (`<title>`) and “Hello world” as header (`<h1>`).
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend
 Directory: 0x02-i18n
 - File: `0-app.py, templates/0-index.html`
@@ -52,7 +52,7 @@ Use `Config` to set Babel’s default locale (`"en"`) and timezone (`"UTC"`).
 
 Use that class as config for your Flask app.
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend
 Directory: 0x02-i18n
 - File: `1-app.py, templates/1-index.html`
@@ -61,7 +61,7 @@ Directory: 0x02-i18n
 
 Create a `get_locale` function with the `babel.localeselector` decorator. Use `request.accept_languages` to determine the best match with our supported languages.
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend
 Directory: 0x02-i18n
 - File: `2-app.py, templates/2-index.html`
@@ -106,7 +106,7 @@ $ pybabel compile -d translations
 
 Reload the home page of your app and make sure that the correct messages show up.
 
-Repo:
+**Repo:**
 
 GitHub repository: alx-backend
 Directory: 0x02-i18n
@@ -124,7 +124,7 @@ Now you should be able to test different translations by visiting `http://127.0.
 
 ![Bonjour monde header](bonjour_monde_3.png)
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend
 Directory: 0x02-i18n
 - File: `4-app.py, templates/4-index.html`
@@ -163,7 +163,7 @@ not_logged_in|"You are not logged in."|"Vous n'êtes pas connecté."
 
 ![Hello world](hello_world_3.png)
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend
 Directory: 0x02-i18n
 - File: `5-app.py, templates/5-index.html`
@@ -183,7 +183,7 @@ Test by logging in as different users
 
 ![Bonjour monde](bonjour_monde_2.png)
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend
 Directory: 0x02-i18n
 - File: `6-app.py, templates/6-index.html`
@@ -200,7 +200,7 @@ The logic should be the same as `get_locale`:
 
 Before returning a URL-provided or user time zone, you must validate that it is a valid time zone. To that, use `pytz.timezone` and catch the `pytz.exceptions.UnknownTimeZoneError` exception.
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend
 Directory: 0x02-i18n
 - File: `7-app.py, templates/7-index.html`
@@ -225,7 +225,7 @@ Use the following translations
 
 ![Hello world](hello_world.png)
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend
 Directory: 0x02-i18n
 - File: `app.py, templates/index.html, translations/en/LC_MESSAGES/messages.po, translations/fr/LC_MESSAGES/messages.po`

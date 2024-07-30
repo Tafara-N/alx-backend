@@ -57,15 +57,14 @@ GitHub repository: alx-backend
 Directory: 0x02-i18n
 File: `1-app.py, templates/1-index.html`
 
-2. Get locale from request
-mandatory
-Create a get_locale function with the babel.localeselector decorator. Use request.accept_languages to determine the best match with our supported languages.
+### 2. Get locale from request
+
+Create a `get_locale` function with the `babel.localeselector` decorator. Use `request.accept_languages` to determine the best match with our supported languages.
 
 Repo:
-
 GitHub repository: alx-backend
 Directory: 0x02-i18n
-File: 2-app.py, templates/2-index.html
+File: `2-app.py, templates/2-index.html`
 
 3. Parametrize templates
 mandatory

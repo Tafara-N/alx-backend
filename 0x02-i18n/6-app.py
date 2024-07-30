@@ -5,11 +5,11 @@ Uses a user's preferred local if it is supported
 """
 
 
-from flask import Flask, request, render_template, g
-from flask_babel import Babel
 from os import getenv
 from typing import Union
 
+from flask import Flask, g, render_template, request
+from flask_babel import Babel
 
 users = {
     1: {"name": "Balou", "locale": "fr", "timezone": "Europe/Paris"},

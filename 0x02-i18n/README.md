@@ -66,37 +66,51 @@ GitHub repository: alx-backend
 Directory: 0x02-i18n
 File: `2-app.py, templates/2-index.html`
 
-3. Parametrize templates
-mandatory
-Use the _ or gettext function to parametrize your templates. Use the message IDs home_title and home_header.
+### 3. Parametrize templates
 
-Create a babel.cfg file containing
+Use the `_` or `gettext` function to parametrize your templates. Use the message IDs `home_title` and `home_header`.
 
+Create a `babel.cfg` file containing
+
+```babel
 [python: **.py]
 [jinja2: **/templates/**.html]
 extensions=jinja2.ext.autoescape,jinja2.ext.with_
+```
+
 Then initialize your translations with
 
+```bash
 $ pybabel extract -F babel.cfg -o messages.pot .
+```
+
 and your two dictionaries with
 
+```bash
 $ pybabel init -i messages.pot -d translations -l en
 $ pybabel init -i messages.pot -d translations -l fr
-Then edit files translations/[en|fr]/LC_MESSAGES/messages.po to provide the correct value for each message ID for each language. Use the following translations:
+```
 
-msgid	English	French
-home_title	"Welcome to Holberton"	"Bienvenue chez Holberton"
-home_header	"Hello world!"	"Bonjour monde!"
+Then edit files `translations/[en|fr]/LC_MESSAGES/messages.po` to provide the correct value for each message ID for each language. Use the following translations:
+
+|msgid|English|French|
+|:----|:------|:-----|
+home_title|"Welcome to Holberton"|"Bienvenue chez Holberton"
+home_header|"Hello world!"|"Bonjour monde!"
+
 Then compile your dictionaries with
 
+```bash
 $ pybabel compile -d translations
+```
+
 Reload the home page of your app and make sure that the correct messages show up.
 
 Repo:
 
 GitHub repository: alx-backend
 Directory: 0x02-i18n
-File: 3-app.py, babel.cfg, templates/3-index.html, translations/en/LC_MESSAGES/messages.po, translations/fr/LC_MESSAGES/messages.po, translations/en/LC_MESSAGES/messages.mo, translations/fr/LC_MESSAGES/messages.mo
+File: `3-app.py, babel.cfg, templates/3-index.html, translations/en/LC_MESSAGES/messages.po, translations/fr/LC_MESSAGES/messages.po, translations/en/LC_MESSAGES/messages.mo, translations/fr/LC_MESSAGES/messages.mo`
 
 4. Force locale with URL parameter
 mandatory

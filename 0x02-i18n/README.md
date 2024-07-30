@@ -161,22 +161,22 @@ GitHub repository: alx-backend
 Directory: 0x02-i18n
 File: 6-app.py, templates/6-index.html
 
-7. Infer appropriate time zone
-mandatory
-Define a get_timezone function and use the babel.timezoneselector decorator.
+### 7. Infer appropriate time zone
 
-The logic should be the same as get_locale:
+Define a `get_timezone` function and use the `babel.timezoneselector` decorator.
 
-Find timezone parameter in URL parameters
-Find time zone from user settings
-Default to UTC
-Before returning a URL-provided or user time zone, you must validate that it is a valid time zone. To that, use pytz.timezone and catch the pytz.exceptions.UnknownTimeZoneError exception.
+The logic should be the same as `get_locale`:
+
+1. Find `timezone` parameter in URL parameters
+2. Find time zone from user settings
+3. Default to UTC
+
+Before returning a URL-provided or user time zone, you must validate that it is a valid time zone. To that, use `pytz.timezone` and catch the `pytz.exceptions.UnknownTimeZoneError` exception.
 
 Repo:
-
 GitHub repository: alx-backend
 Directory: 0x02-i18n
-File: 7-app.py, templates/7-index.html
+File: `7-app.py, templates/7-index.html`
 
 ### 8. Display the current time
 

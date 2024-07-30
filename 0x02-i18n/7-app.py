@@ -2,12 +2,12 @@
 """
 App module
 """
-from flask import Flask, request, render_template, g
-from flask_babel import Babel
 from typing import Union
-from pytz import timezone
-import pytz.exceptions
 
+import pytz.exceptions
+from flask import Flask, g, render_template, request
+from flask_babel import Babel
+from pytz import timezone
 
 app = Flask(__name__)
 babel = Babel(app)

@@ -31,7 +31,7 @@ def get_locale() -> Union[str, None]:
 
 
 @app.route("/", methods=["GET"], strict_slashes=False)
-def home():
+def index():
     """
     The index page route, renders the '4-index.html' template
     """

@@ -34,7 +34,7 @@ First you will setup a basic Flask app in `0-app.py`. Create a single `/` route 
 Repo:
 GitHub repository: alx-backend
 Directory: 0x02-i18n
-File: `0-app.py, templates/0-index.html`
+- File: `0-app.py, templates/0-index.html`
 
 ### 1. Basic Babel setup
 
@@ -55,7 +55,7 @@ Use that class as config for your Flask app.
 Repo:
 GitHub repository: alx-backend
 Directory: 0x02-i18n
-File: `1-app.py, templates/1-index.html`
+- File: `1-app.py, templates/1-index.html`
 
 ### 2. Get locale from request
 
@@ -64,7 +64,7 @@ Create a `get_locale` function with the `babel.localeselector` decorator. Use `r
 Repo:
 GitHub repository: alx-backend
 Directory: 0x02-i18n
-File: `2-app.py, templates/2-index.html`
+- File: `2-app.py, templates/2-index.html`
 
 ### 3. Parametrize templates
 
@@ -110,7 +110,7 @@ Repo:
 
 GitHub repository: alx-backend
 Directory: 0x02-i18n
-File: `3-app.py, babel.cfg, templates/3-index.html, translations/en/LC_MESSAGES/messages.po, translations/fr/LC_MESSAGES/messages.po, translations/en/LC_MESSAGES/messages.mo, translations/fr/LC_MESSAGES/messages.mo`
+- File: `3-app.py, babel.cfg, templates/3-index.html, translations/en/LC_MESSAGES/messages.po, translations/fr/LC_MESSAGES/messages.po, translations/en/LC_MESSAGES/messages.mo, translations/fr/LC_MESSAGES/messages.mo`
 
 ### 4. Force locale with URL parameter
 
@@ -127,7 +127,7 @@ Now you should be able to test different translations by visiting `http://127.0.
 Repo:
 GitHub repository: alx-backend
 Directory: 0x02-i18n
-File: `4-app.py, templates/4-index.html`
+- File: `4-app.py, templates/4-index.html`
 
 ### 5. Mock logging in
 
@@ -166,7 +166,7 @@ not_logged_in|"You are not logged in."|"Vous n'êtes pas connecté."
 Repo:
 GitHub repository: alx-backend
 Directory: 0x02-i18n
-File: `5-app.py, templates/5-index.html`
+- File: `5-app.py, templates/5-index.html`
 
 ### 6. Use user locale
 
@@ -186,7 +186,7 @@ Test by logging in as different users
 Repo:
 GitHub repository: alx-backend
 Directory: 0x02-i18n
-File: `6-app.py, templates/6-index.html`
+- File: `6-app.py, templates/6-index.html`
 
 ### 7. Infer appropriate time zone
 
@@ -203,7 +203,7 @@ Before returning a URL-provided or user time zone, you must validate that it is 
 Repo:
 GitHub repository: alx-backend
 Directory: 0x02-i18n
-File: `7-app.py, templates/7-index.html`
+- File: `7-app.py, templates/7-index.html`
 
 ### 8. Display the current time
 
@@ -228,4 +228,4 @@ Use the following translations
 Repo:
 GitHub repository: alx-backend
 Directory: 0x02-i18n
-File: `app.py, templates/index.html, translations/en/LC_MESSAGES/messages.po, translations/fr/LC_MESSAGES/messages.po`
+- File: `app.py, templates/index.html, translations/en/LC_MESSAGES/messages.po, translations/fr/LC_MESSAGES/messages.po`

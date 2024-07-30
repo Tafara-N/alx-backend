@@ -4,10 +4,10 @@
 Gets locale from a request
 """
 
-from flask import Flask, request, render_template
+from flask import Flask, render_template, request
 from flask_babel import Babel
-from config import Config
 
+from config import Config
 
 app = Flask(__name__)
 babel = Babel(app)

@@ -1,10 +1,10 @@
 # Pagination
 
-![Paginated Cat](pagination.png)
+![Paginated Cat](pictures/pagination.png)
 
-![Paginated Cat](pagination_2.png)
+![Paginated Cat](pictures/pagination_2.png)
 
-![Paginated Cat](pagination_3.png)
+![Paginated Cat](pictures/pagination_3.png)
 
 # Resources
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-
+Parametrized templatess
 """
 
 from typing import Union
@@ -19,13 +19,19 @@ app.config.from_object(Config)
 
 @babel.localeselector
 def get_locale() -> Union[str, None]:
-    """get locale"""
+    """
+    Gets locale from a request
+    """
+
     return request.accept_languages.best_match(Config.LANGUAGES)
 
 
 @app.route("/", methods=["GET"], strict_slashes=False)
-def home():
-    """Home page"""
+def index():
+    """
+    The index page route, renders the '3-index.html' template
+    """
+
     return render_template("3-index.html")
 
 

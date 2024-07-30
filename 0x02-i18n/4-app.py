@@ -6,8 +6,10 @@ parameter to my app's URLs
 """
 
 from typing import Union
-from flask import Flask, request, render_template
+
+from flask import Flask, render_template, request
 from flask_babel import Babel
+
 from config import Config
 
 app = Flask(__name__)

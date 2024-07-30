@@ -192,11 +192,11 @@ Use the following translations
 
 **Displaying the time in French looks like this:**
 
-
+![Bonjour monde](bonjour_monde.png)
 
 **Displaying the time in English looks like this:**
 
-
+![Hello world](hello_world.png)
 
 Repo:
 GitHub repository: alx-backend

@@ -41,6 +41,7 @@ def get_user():
     Return
         user's dict if ID can be found
     """
+
     try:
         return users.get(int(request.args.get("login_as")))
     except Exception:

@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
+
 """
 App module
 """
+
 from typing import Union
 
 import pytz.exceptions
@@ -9,12 +11,15 @@ from flask import Flask, g, render_template, request
 from flask_babel import Babel
 from pytz import timezone
 
+
 app = Flask(__name__)
 babel = Babel(app)
 
 
 class Config(object):
-    """Class config app"""
+    """
+    Configuration class for Babel
+    """
 
     LANGUAGES = ["en", "fr"]
     BABEL_DEFAULT_LOCALE = "en"
@@ -32,7 +37,10 @@ app.config.from_object(Config)
 
 
 def get_user():
-    """get user"""
+    """
+    Return
+        user's dict if ID can be found
+    """
     try:
         return users.get(int(request.args.get("login_as")))
     except Exception:

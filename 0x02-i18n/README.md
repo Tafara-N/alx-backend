@@ -1,4 +1,4 @@
-![I don't always test I18n](test_i18n.jpg)
+![I don't always test I18n](pictures/test_i18n.jpg)
 
 # Resources
 

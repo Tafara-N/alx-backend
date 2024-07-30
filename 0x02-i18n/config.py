@@ -4,6 +4,7 @@
 Babel config model
 """
 
+
 class Config(object):
     """
     Configuration class for Babel

@@ -141,25 +141,25 @@ GitHub repository: alx-backend
 Directory: 0x02-i18n
 File: 5-app.py, templates/5-index.html
 
-6. Use user locale
-mandatory
-Change your get_locale function to use a user’s preferred local if it is supported.
+### 6. Use user locale
+
+Change your `get_locale` function to use a user’s preferred local if it is supported.
 
 The order of priority should be
 
-Locale from URL parameters
-Locale from user settings
-Locale from request header
-Default locale
+1. Locale from URL parameters
+2. Locale from user settings
+3. Locale from request header
+4. Default locale
+
 Test by logging in as different users
 
-
+![Bonjour monde](bonjour_monde_2.png)
 
 Repo:
-
 GitHub repository: alx-backend
 Directory: 0x02-i18n
-File: 6-app.py, templates/6-index.html
+File: `6-app.py, templates/6-index.html`
 
 ### 7. Infer appropriate time zone
 

@@ -131,7 +131,7 @@ ___
 
 3. # i18n
 
-![I don't always test I18n](pictures/test_i18n.jpg)
+![I don't always test I18n](https://github.com/Tafara-N/alx-backend/blob/main/0x02-i18n/pictures/test_i18n.jpg)
 
 # Resources
 

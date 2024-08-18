@@ -2,19 +2,16 @@
 
 ## Table of Content
 - [Author](#author)
-- [Aliases](Aliases/README.md#aliases)
 - [Description](#description)
-- [Fonts](Fonts/README.md#fonts)
-- [Key Bindings](Key-Bindings/README.md#key-bindings)
-- [Packages](Packages/README.md#packages)
-- [Scripts](Scripts/README.md#scripts)
-- [Settings](Settings/README.md#settings)
-- [Set Up](Set-Up/README.md#set-up)
-- [Snippets](Snippets/README.md#snippets)
-- [Templates](Templates/README.md#templates)
-- [Vim](Vim/README.md#vim)
+___
+
+___
+
+- [Requirements](#requirements)
 
 # Description
+
+1. # Pagination
 
 ![Paginated Cat](pictures/pagination.png)
 
@@ -52,7 +49,7 @@ How to paginate in a deletion-resilient manner
 
 [use this data file](https://intranet.alxswe.com/rltoken/NBLY6mdKDBR9zWvNADwjjg) for your project
 
-# Caching
+2. # Caching
 
 # Background Context
 

@@ -199,12 +199,12 @@ Using `hset`, let’s store the following:
 
 - The key of the hash should be `HolbertonSchools`
 - It should have a value for:
-Portland=50`
-Seattle=80`
-New York=20`
-Bogota=20`
-Cali=40`
-Paris=2`
+    - `Portland=50`
+    - `Seattle=80`
+    - `New York=20`
+    - `Bogota=20`
+    - `Cali=40`
+    - `Paris=2`
 - Make sure you use `redis.print` for each `hset`
 
 **Display Hash:**

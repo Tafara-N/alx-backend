@@ -769,12 +769,17 @@ Decrease the number of seat available by using getCurrentAvailableSeats and rese
 If the new number of available seats is equal to 0, set reservationEnabled to false
 If the new number of available seats is more or equal than 0, the job is successful
 Otherwise, fail the job with an Error with the message Not enough seats available
+
+```bash
 bob@dylan:~$ curl localhost:1245/process ; echo ""
 {"status":"Queue processing"}
 bob@dylan:~$
 bob@dylan:~$ curl localhost:1245/available_seats ; echo ""
-{"numberOfAvailableSeats":"49"}
+{"numberOfAvailable
+Seats":"49"}
 bob@dylan:~$
+```
+
 and in the server terminal:
 
 Seat reservation job 52 completed

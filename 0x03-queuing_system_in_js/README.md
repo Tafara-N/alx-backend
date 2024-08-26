@@ -2,7 +2,7 @@ Resources
 
 **Read or watch:**
 
-- [Redis quick start]()
+- [Redis quick start](https://redis.io/docs/latest/integrate/)
 - [Redis client interface]()
 - [Redis client for Node JS]()
 - [Kue]() *deprecated but still use in the industry*

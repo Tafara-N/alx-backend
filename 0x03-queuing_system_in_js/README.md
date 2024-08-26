@@ -516,14 +516,16 @@ Track the progress to 50%
 Log to the console Sending notification to PHONE_NUMBER, with message: MESSAGE
 Create a queue with Kue that will proceed job of the queue push_notification_code_2 with two jobs at a time.
 
-Requirements:
+**Requirements:**
 
-You only need one Redis server to execute the program
-You will need to have two node processes to run each script at the same time
-You muse use Kue to set up the queue
-Executing the jobs list should log to the console the following:
-Terminal 2:
+- You only need one Redis server to execute the program
+- You will need to have two node processes to run each script at the same time
+- You muse use `Kue` to set up the queue
+- Executing the jobs list should log to the console the following:
 
+**Terminal 2:**
+
+```bash
 bob@dylan:~$ npm run dev 7-job_processor.js
 
 > queuing_system_in_js@1.0.0 dev /root
@@ -543,9 +545,11 @@ Sending notification to 4158718781, with message: This is the code 4562 to verif
 Sending notification to 4153818782, with message: This is the code 4321 to verify your account
 Sending notification to 4154318781, with message: This is the code 4562 to verify your account
 Sending notification to 4151218782, with message: This is the code 4321 to verify your account
+```
 
-And in the same time in terminal 1:
+**And in the same time in terminal 1:**
 
+```bash
 ...
 Notification job #39 0% complete
 Notification job #40 0% complete
@@ -578,11 +582,12 @@ Notification job #48 completed
 Notification job #49 0% complete
 Notification job #49 50% complete
 Notification job #49 completed
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend
 Directory: 0x03-queuing_system_in_js
-File: 7-job_processor.js
+File: `7-job_processor.js`
 
 ### 10. Writing the job creation function
 

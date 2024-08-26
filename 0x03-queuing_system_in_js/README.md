@@ -627,21 +627,24 @@ Repo:
 
 GitHub repository: alx-backend
 Directory: 0x03-queuing_system_in_js
-File: 8-job.js
+File: `8-job.js`
 
-11. Writing the test for job creation
-mandatory
+### 11. Writing the test for job creation
+
 Now that you created a job creator, let’s add tests:
 
-Import the function createPushNotificationsJobs
-Create a queue with Kue
-Write a test suite for the createPushNotificationsJobs function:
-Use queue.testMode to validate which jobs are inside the queue
-etc.
-Requirements:
+- Import the function `createPushNotificationsJobs`
+- Create a queue with `Kue`
+- Write a test suite for the `createPushNotificationsJobs` function:
+    - Use `queue.testMode` to validate which jobs are inside the queue
+    - etc.
 
-Make sure to enter the test mode without processing the jobs before executing the tests
-Make sure to clear the queue and exit the test mode after executing the tests
+**Requirements:**
+
+- Make sure to enter the test mode without processing the jobs before executing the tests
+- Make sure to clear the queue and exit the test mode after executing the tests
+
+```bash
 bob@dylan:~$ npm test 8-job.test.js
 
 > queuing_system_in_js@1.0.0 test /root
@@ -657,9 +660,9 @@ Notification job created: 2
 ...
 
   123 passing (417ms)
+```
 
 Repo:
-
 GitHub repository: alx-backend
 Directory: 0x03-queuing_system_in_js
 File: `8-job.test.js`

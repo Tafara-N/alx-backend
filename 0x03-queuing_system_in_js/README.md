@@ -801,11 +801,11 @@ bob@dylan:~$
 
 **Requirements:**
 
-Make sure to use promisify with Redis
-Make sure to use the await/async keyword to get the value from Redis
-Make sure the format returned by the web application is always JSON and not text
-Make sure that only the allowed amount of seats can be reserved
-Make sure that the main route is displaying the right number of seats
+- Make sure to use `promisify` with Redis
+- Make sure to use the `await`/`async` keyword to get the value from Redis
+- Make sure the format returned by the web application is always JSON and not text
+- Make sure that only the allowed amount of seats can be reserved
+- Make sure that the main route is displaying the right number of seats
 
 Repo:
 GitHub repository: alx-backend

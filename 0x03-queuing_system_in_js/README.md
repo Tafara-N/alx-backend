@@ -514,7 +514,8 @@ If phoneNumber is included in the “blacklisted array”, fail the job with an 
 Otherwise:
 Track the progress to 50%
 Log to the console Sending notification to PHONE_NUMBER, with message: MESSAGE
-Create a queue with Kue that will proceed job of the queue push_notification_code_2 with two jobs at a time.
+
+Create a queue with `Kue` that will proceed job of the queue `push_notification_code_2` with two jobs at a time.
 
 **Requirements:**
 

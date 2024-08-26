@@ -40,14 +40,24 @@ $ cd redis-6.0.10
 $ make
 Start Redis in the background with src/redis-server
 $ src/redis-server &
-Make sure that the server is working with a ping src/redis-cli ping
+```
+
+- Make sure that the server is working with a ping src/redis-cli ping
+
+```bash
 PONG
-Using the Redis client again, set the value School for the key Holberton
+```
+
+- Using the Redis client again, set the value `School` for the key `Holberton`
+
+```bash
 127.0.0.1:[Port]> set Holberton School
 OK
 127.0.0.1:[Port]> get Holberton
 "School"
-- Kill the server with the process id of the redis-server (hint: use ps and grep)
+```
+
+- Kill the server with the process id of the redis-server (hint: use `ps` and `grep`)
 
 ```bash
 $ kill [PID_OF_Redis_Server]

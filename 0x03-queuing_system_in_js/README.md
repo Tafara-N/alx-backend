@@ -780,6 +780,7 @@ and in the server terminal:
 Seat reservation job 52 completed
 and you can reserve all seats:
 
+```bash
 bob@dylan:~$ for n in {1..50}; do curl localhost:1245/reserve_seat ; echo ""; done
 {"status":"Reservation in process"}
 {"status":"Reservation in process"}
@@ -791,15 +792,17 @@ bob@dylan:~$ for n in {1..50}; do curl localhost:1245/reserve_seat ; echo ""; do
 {"status":"Reservation are blocked"}
 {"status":"Reservation are blocked"}
 bob@dylan:~$
-Requirements:
+```
+
+**Requirements:**
 
 Make sure to use promisify with Redis
 Make sure to use the await/async keyword to get the value from Redis
 Make sure the format returned by the web application is always JSON and not text
 Make sure that only the allowed amount of seats can be reserved
 Make sure that the main route is displaying the right number of seats
-Repo:
 
+Repo:
 GitHub repository: alx-backend
 Directory: 0x03-queuing_system_in_js
-File: 100-seat.js
+File: `100-seat.js`

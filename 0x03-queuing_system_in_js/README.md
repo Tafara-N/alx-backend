@@ -262,17 +262,23 @@ It will take two arguments: message (string), and time (integer - in ms)
 After time millisecond:
 The function should log to the console About to send MESSAGE
 The function should publish to the channel holberton school channel, the message passed in argument after the time passed in arguments
-At the end of the file, call:
+- At the end of the file, call:
+
+```bash
 publishMessage("Holberton Student #1 starts course", 100);
 publishMessage("Holberton Student #2 starts course", 200);
 publishMessage("KILL_SERVER", 300);
 publishMessage("Holberton Student #3 starts course", 400);
-Requirements:
+```
 
-You only need one Redis server to execute the program
-You will need to have two node processes to run each script at the same time
-Terminal 1:
+**Requirements:**
 
+- You only need one Redis server to execute the program
+- You will need to have two node processes to run each script at the same time
+
+**Terminal 1:**
+
+```bash
 bob@dylan:~$ npm run dev 5-subscriber.js
 
 > queuing_system_in_js@1.0.0 dev /root
@@ -284,8 +290,11 @@ bob@dylan:~$ npm run dev 5-subscriber.js
 [nodemon] watching extensions: js,mjs,json
 [nodemon] starting `babel-node --presets @babel/preset-env 5-subscriber.js`
 Redis client connected to the server
-Terminal 2:
+```
 
+**Terminal 2:**
+
+```bash
 bob@dylan:~$ npm run dev 5-publisher.js
 
 > queuing_system_in_js@1.0.0 dev /root
@@ -303,8 +312,11 @@ About to send KILL_SERVER
 About to send Holberton Student #3 starts course
 ^C
 bob@dylan:~$
-And in the same time in Terminal 1:
+```
 
+**And in the same time in Terminal 1:**
+
+```bash
 Redis client connected to the server
 Holberton Student #1 starts course
 Holberton Student #2 starts course
@@ -312,13 +324,14 @@ KILL_SERVER
 [nodemon] clean exit - waiting for changes before restart
 ^C
 bob@dylan:~$
+```
+
 Now you have a basic Redis-based queuing system where you have a process to generate job and a second one to process it. These 2 processes can be in 2 different servers, which we also call “background workers”.
 
 Repo:
-
 GitHub repository: alx-backend
 Directory: 0x03-queuing_system_in_js
-File: 5-subscriber.js, 5-publisher.js
+File: `5-subscriber.js, 5-publisher.js`
 
 ### 6. Create the Job creator
 

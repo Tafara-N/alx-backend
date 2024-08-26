@@ -127,14 +127,18 @@ It should display a confirmation message using redis.print
 displaySchoolValue:
 It accepts one argument schoolName.
 It should log to the console the value for the key passed as argument
+
 At the end of the file, call:
 
-displaySchoolValue('Holberton');
-setNewSchool('HolbertonSanFrancisco', '100');
-displaySchoolValue('HolbertonSanFrancisco');
-Requirements:
+- `displaySchoolValue('Holberton');`
+- `setNewSchool('HolbertonSanFrancisco', '100');`
+- `displaySchoolValue('HolbertonSanFrancisco');`
 
-Use callbacks for any of the operation, we will look at async operations later
+**Requirements:**
+
+- Use callbacks for any of the operation, we will look at async operations later
+
+```bash
 bob@dylan:~$ npm run dev 1-redis_op.js
 
 > queuing_system_in_js@1.0.0 dev /root
@@ -152,11 +156,12 @@ Reply: OK
 ^C
 
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend
 Directory: 0x03-queuing_system_in_js
-File: 1-redis_op.js
+File: `1-redis_op.js`
 
 ### 3. Node Redis client and async operations
 

@@ -1,3 +1,5 @@
+![Redis Server](redis_server.png)
+
 # Resources
 
 **Read or watch:**

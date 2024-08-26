@@ -780,10 +780,13 @@ Seats":"49"}
 bob@dylan:~$
 ```
 
-and in the server terminal:
+**and in the server terminal:**
 
+```
 Seat reservation job 52 completed
-and you can reserve all seats:
+```
+
+**and you can reserve all seats:**
 
 ```bash
 bob@dylan:~$ for n in {1..50}; do curl localhost:1245/reserve_seat ; echo ""; done

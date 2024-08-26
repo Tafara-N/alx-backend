@@ -1,10 +1,11 @@
 Resources
-Read or watch:
 
-Redis quick start]()
-Redis client interface]()
-Redis client for Node JS]()
-Kue]() *deprecated but still use in the industry*
+**Read or watch:**
+
+- [Redis quick start]()
+- [Redis client interface]()
+- [Redis client for Node JS]()
+- [Kue]() *deprecated but still use in the industry*
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**

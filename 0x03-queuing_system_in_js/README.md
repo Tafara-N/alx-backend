@@ -189,9 +189,9 @@ GitHub repository: alx-backend
 Directory: 0x03-queuing_system_in_js
 File: 2-redis_op_async.js
 
-4. Node Redis client and advanced operations
-mandatory
-In a file named 4-redis_advanced_op.js, let’s use the client to store a hash value
+### 4. Node Redis client and advanced operations
+
+In a file named `4-redis_advanced_op.js`, let’s use the client to store a hash value
 
 Create Hash:
 Using hset, let’s store the following:

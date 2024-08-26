@@ -462,17 +462,21 @@ const jobs = [
     message: 'This is the code 4321 to verify your account'
   }
 ];
+```
+
 After this array created:
 
-Create a queue with Kue
-Write a loop that will go through the array jobs and for each object:
-Create a new job to the queue push_notification_code_2 with the current object
-If there is no error, log to the console Notification job created: JOB_ID
-On the job completion, log to the console Notification job JOB_ID completed
-On the job failure, log to the console Notification job JOB_ID failed: ERROR
-On the job progress, log to the console Notification job JOB_ID PERCENTAGE% complete
-Terminal 1:
+- Create a queue with `Kue`
+- Write a loop that will go through the array `jobs` and for each object:
+    - Create a new job to the queue `push_notification_code_2` with the current object
+    - If there is no error, log to the console `Notification job created: JOB_ID`
+    - On the job completion, log to the console `Notification job JOB_ID completed`
+    - On the job failure, log to the console `Notification job JOB_ID failed: ERROR`
+    - On the job progress, log to the console `Notification job JOB_ID PERCENTAGE% complete`
 
+**Terminal 1:**
+
+```bash
 bob@dylan:~$ npm run dev 7-job_creator.js
 
 > queuing_system_in_js@1.0.0 dev /root
@@ -494,9 +498,9 @@ Notification job created: 46
 Notification job created: 47
 Notification job created: 48
 Notification job created: 49
+```
 
 Repo:
-
 GitHub repository: alx-backend
 Directory: 0x03-queuing_system_in_js
 File: `7-job_creator.js`

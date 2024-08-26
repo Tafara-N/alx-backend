@@ -8,6 +8,7 @@ ___
 - [i18n](0x02-i18n/README.md)
 - [Caching](0x01-caching/README.md)
 - [Pagination](0x00-pagination/README.md)
+- [Queuing System In JS](0x03-queuing_system_in_js/README.md)
 ___
 
 # Description

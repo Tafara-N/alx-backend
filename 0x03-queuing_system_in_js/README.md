@@ -47,18 +47,22 @@ Using the Redis client again, set the value School for the key Holberton
 OK
 127.0.0.1:[Port]> get Holberton
 "School"
-Kill the server with the process id of the redis-server (hint: use ps and grep)
+- Kill the server with the process id of the redis-server (hint: use ps and grep)
+
+```bash
 $ kill [PID_OF_Redis_Server]
-Copy the dump.rdb from the redis-5.0.7 directory into the root of the Queuing project.
+```
+
+Copy the `dump.rdb` from the `redis-5.0.7` directory into the root of the Queuing project.
 
 Requirements:
 
-Running get Holberton in the client, should return School
-Repo:
+- Running `get Holberton` in the client, should return `School`
 
+Repo:
 GitHub repository: alx-backend
 Directory: 0x03-queuing_system_in_js
-File: README.md, dump.rdb
+File: `README.md, dump.rdb`
 
 ### 1. Node Redis Client
 

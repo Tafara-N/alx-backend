@@ -68,6 +68,14 @@ How to the build a basic Express app interacting with a Redis server and queue
 
 `.babelrc`
 
+```babelrc
+{
+  "presets": [
+    "@babel/preset-env"
+  ]
+}
+```
+
 **and…**
 
 Don’t forget to run `$ npm install` when you have the `package.json`

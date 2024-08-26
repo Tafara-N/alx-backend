@@ -193,8 +193,9 @@ File: 2-redis_op_async.js
 
 In a file named `4-redis_advanced_op.js`, let’s use the client to store a hash value
 
-Create Hash:
-Using hset, let’s store the following:
+**Create Hash:**
+
+Using `hset`, let’s store the following:
 
 - The key of the hash should be `HolbertonSchools`
 - It should have a value for:

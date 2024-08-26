@@ -5,7 +5,7 @@ Resources
 - [Redis quick start](https://redis.io/docs/latest/integrate/)
 - [Redis client interface](https://redis.io/docs/latest/develop/connect/cli/)
 - [Redis client for Node JS](https://github.com/redis/node-redis)
-- [Kue]() *deprecated but still use in the industry*
+- [Kue](https://github.com/Automattic/kue) *deprecated but still use in the industry*
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**

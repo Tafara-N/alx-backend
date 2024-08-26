@@ -408,14 +408,15 @@ Repo:
 
 GitHub repository: alx-backend
 Directory: 0x03-queuing_system_in_js
-File: 6-job_processor.js
+File: `6-job_processor.js`
 
-8. Track progress and errors with Kue: Create the Job creator
-mandatory
-In a file named 7-job_creator.js:
+### 8. Track progress and errors with Kue: Create the Job creator
 
-Create an array jobs with the following data inside:
+In a file named `7-job_creator.js`:
 
+Create an array `jobs` with the following data inside:
+
+```bash
 const jobs = [
   {
     phoneNumber: '4153518780',

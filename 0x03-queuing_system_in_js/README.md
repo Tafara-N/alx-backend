@@ -33,7 +33,7 @@ Don’t forget to run $ npm install when you have the package.json
 
 ### 0. Install a redis instance
 
-Download, extract, and compile the latest stable Redis version (higher than 5.0.7 - https://redis.io/downloads/):
+Download, extract, and compile the latest stable Redis version (higher than 5.0.7 - [https://redis.io/downloads/](https://redis.io/downloads/)):
 
 ```bash
 $ wget http://download.redis.io/releases/redis-6.0.10.tar.gz

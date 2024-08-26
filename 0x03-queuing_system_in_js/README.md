@@ -40,11 +40,15 @@ $ wget http://download.redis.io/releases/redis-6.0.10.tar.gz
 $ tar xzf redis-6.0.10.tar.gz
 $ cd redis-6.0.10
 $ make
-Start Redis in the background with src/redis-server
+```
+
+- Start Redis in the background with `src/redis-server`
+
+```bash
 $ src/redis-server &
 ```
 
-- Make sure that the server is working with a ping src/redis-cli ping
+- Make sure that the server is working with a ping `src/redis-cli ping`
 
 ```bash
 PONG

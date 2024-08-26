@@ -158,14 +158,15 @@ GitHub repository: alx-backend
 Directory: 0x03-queuing_system_in_js
 File: 1-redis_op.js
 
-3. Node Redis client and async operations
-mandatory
-In a file 2-redis_op_async.js, let’s copy the code from the previous exercise (1-redis_op.js)
+### 3. Node Redis client and async operations
 
-Using promisify, modify the function displaySchoolValue to use ES6 async / await
+In a file `2-redis_op_async.js`, let’s copy the code from the previous exercise (`1-redis_op.js`)
 
-Same result as 1-redis_op.js
+Using `promisify`, modify the function `displaySchoolValue` to use ES6 `async / await`
 
+Same result as `1-redis_op.js`
+
+```bash
 bob@dylan:~$ npm run dev 2-redis_op_async.js
 
 > queuing_system_in_js@1.0.0 dev /root
@@ -183,11 +184,12 @@ Reply: OK
 ^C
 
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend
 Directory: 0x03-queuing_system_in_js
-File: 2-redis_op_async.js
+File: `2-redis_op_async.js`
 
 ### 4. Node Redis client and advanced operations
 

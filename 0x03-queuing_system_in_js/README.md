@@ -356,23 +356,26 @@ GitHub repository: alx-backend
 Directory: 0x03-queuing_system_in_js
 File: 6-job_creator.js
 
-7. Create the Job processor
-mandatory
-In a file named 6-job_processor.js:
+### 7. Create the Job processor
 
-Create a queue with Kue
-Create a function named sendNotification:
-It will take two arguments phoneNumber and message
-It will log to the console Sending notification to PHONE_NUMBER, with message: MESSAGE
-Write the queue process that will listen to new jobs on push_notification_code:
-Every new job should call the sendNotification function with the phone number and the message contained within the job data
-Requirements:
+In a file named `6-job_processor.js`:
 
-You only need one Redis server to execute the program
-You will need to have two node processes to run each script at the same time
-You muse use Kue to set up the queue
-Terminal 2:
+- Create a queue with `Kue`
+- Create a function named `sendNotification`:
+    - It will take two arguments `phoneNumber` and `message`
+    - It will log to the console `Sending notification to PHONE_NUMBER, with message: MESSAGE`
+- Write the queue process that will listen to new jobs on `push_notification_code`:
+    - Every new job should call the `sendNotification` function with the phone number and the message contained within the job data
 
+**Requirements:**
+
+- You only need one Redis server to execute the program
+- You will need to have two node processes to run each script at the same time
+- You muse use `Kue` to set up the queue
+
+**Terminal 2:**
+
+```bash
 bob@dylan:~$ npm run dev 6-job_processor.js
 
 > queuing_system_in_js@1.0.0 dev /root
@@ -384,9 +387,11 @@ bob@dylan:~$ npm run dev 6-job_processor.js
 [nodemon] watching extensions: js,mjs,json
 [nodemon] starting `babel-node --presets @babel/preset-env 6-job_processor.js`
 Sending notification to 4153518780, with message: This is the code to verify your account
+```
 
-Terminal 1: let’s queue a new job!
+**Terminal 1: let’s queue a new job!**
 
+```bash
 bob@dylan:~$ npm run dev 6-job_creator.js
 
 > queuing_system_in_js@1.0.0 dev /root
@@ -398,14 +403,17 @@ bob@dylan:~$ npm run dev 6-job_creator.js
 [nodemon] watching extensions: js,mjs,json
 [nodemon] starting `babel-node --presets @babel/preset-env 6-job_creator.js`
 Notification job created: 2
+```
 
-And in the same time in Terminal 2:
+**And in the same time in Terminal 2:**
 
+```
 Sending notification to 4153518780, with message: This is the code to verify your account
-BOOM! same as 5-subscriber.js and 5-publisher.js but with a module to manage jobs.
+```
+
+BOOM! same as `5-subscriber.js` and `5-publisher.js` but with a module to manage jobs.
 
 Repo:
-
 GitHub repository: alx-backend
 Directory: 0x03-queuing_system_in_js
 File: `6-job_processor.js`

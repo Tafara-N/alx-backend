@@ -320,20 +320,26 @@ GitHub repository: alx-backend
 Directory: 0x03-queuing_system_in_js
 File: 5-subscriber.js, 5-publisher.js
 
-6. Create the Job creator
-mandatory
-In a file named 6-job_creator.js:
+### 6. Create the Job creator
 
-Create a queue with Kue
-Create an object containing the Job data with the following format:
+In a file named `6-job_creator.js`:
+
+- Create a queue with `Kue`
+- Create an object containing the Job data with the following format:
+
+```bash
 {
   phoneNumber: string,
   message: string,
 }
-Create a queue named push_notification_code, and create a job with the object created before
-When the job is created without error, log to the console Notification job created: JOB ID
-When the job is completed, log to the console Notification job completed
-When the job is failing, log to the console Notification job failed
+```
+
+- Create a queue named `push_notification_code`, and create a job with the object created before
+- When the job is created without error, log to the console `Notification job created: JOB ID`
+- When the job is completed, log to the console `Notification job completed`
+- When the job is failing, log to the console `Notification job failed`
+
+```bash
 bob@dylan:~$ npm run dev 6-job_creator.js
 
 > queuing_system_in_js@1.0.0 dev /root
@@ -345,16 +351,16 @@ bob@dylan:~$ npm run dev 6-job_creator.js
 [nodemon] watching extensions: js,mjs,json
 [nodemon] starting `babel-node --presets @babel/preset-env 6-job_creator.js`
 Notification job created: 1
+```
 
 Nothing else will happen - to process the job, go to the next task!
 
-If you execute multiple time this file, you will see the JOB ID increasing - it means you are storing new job to process…
+If you execute multiple time this file, you will see the `JOB ID` increasing - it means you are storing new job to process…
 
 Repo:
-
 GitHub repository: alx-backend
 Directory: 0x03-queuing_system_in_js
-File: 6-job_creator.js
+File: `6-job_creator.js`
 
 ### 7. Create the Job processor
 

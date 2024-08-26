@@ -29,8 +29,9 @@ Click to show/hide file contents
 and…
 Don’t forget to run $ npm install when you have the package.json
 
-Tasks
-0. Install a redis instance
+## Tasks
+
+### 0. Install a redis instance
 mandatory
 Download, extract, and compile the latest stable Redis version (higher than 5.0.7 - https://redis.io/downloads/):
 

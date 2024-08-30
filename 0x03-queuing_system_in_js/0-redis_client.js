@@ -11,6 +11,6 @@ async function nodeRedis() {
   } catch (error) {
     console.log('Redis client not connected to the server:', error);
   }
-}
+};
 
 nodeRedis()

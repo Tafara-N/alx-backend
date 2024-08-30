@@ -3,6 +3,7 @@
 import { createClient } from 'redis';
 
 client = createClient();
+
 async function nodeRedis() {
   try {
     await client.connect()

@@ -24,11 +24,11 @@ ___
 # Resources
 
 **Read or watch:**
-- [REST API Design: Pagination](https://intranet.alxswe.com/rltoken/7Kdzi9CH1LdSfNQ4RaJUQw)
-- [HATEOAS](https://intranet.alxswe.com/rltoken/tfzcEbTSdMYSYxsspJH_oA)
+- [REST API Design: Pagination](https://www.moesif.com/blog/technical/api-design/REST-API-Design-Filtering-Sorting-and-Pagination/#pagination)
+- [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS)
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/zQ78qQVUjaPExupXQpAaHw), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 How to paginate a dataset with simple page and page_size parameters
 How to paginate a dataset with hypermedia metadata
@@ -49,7 +49,7 @@ How to paginate in a deletion-resilient manner
 
 ## Setup: `Popular_Baby_Names.csv`
 
-[use this data file](https://intranet.alxswe.com/rltoken/NBLY6mdKDBR9zWvNADwjjg) for your project
+[use this data file](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2020/5/7d3576d97e7560ae85135cc214ffe2b3412c51d7.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240831T132422Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=39c1481188d55cf230c19d102c107cb1e86ff30d57825eb87ea012904d226de4) for your project
 ___
 
 2. # Caching
@@ -68,7 +68,7 @@ In this project, you learn different caching algorithms.
 - [Cache replacement policies - LFU]()
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 ## General
 - What a caching system is

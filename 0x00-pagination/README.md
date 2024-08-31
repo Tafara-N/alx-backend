@@ -5,11 +5,11 @@
 # Resources
 
 **Read or watch:**
-- [REST API Design: Pagination](https://intranet.alxswe.com/rltoken/7Kdzi9CH1LdSfNQ4RaJUQw)
-- [HATEOAS](https://intranet.alxswe.com/rltoken/tfzcEbTSdMYSYxsspJH_oA)
+- [REST API Design: Pagination](https://www.moesif.com/blog/technical/api-design/REST-API-Design-Filtering-Sorting-and-Pagination/#pagination)
+- [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS)
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/zQ78qQVUjaPExupXQpAaHw), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 How to paginate a dataset with simple page and page_size parameters
 How to paginate a dataset with hypermedia metadata
